@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>ООО "Olbirol-Com"</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="script" href="script.js">
+  </head>
+  <body>
+    <center><div class="menu">
+    Welcome to Web site of our company!
+    </div></center>
+    <div id="logo" onclick="slowScroll('top')"
+    <b><span>ПараПетГруп</span></b>
+    <center><ul id="navbar">
+      <li><a href="index2.html" title="Главная">Главная</a></li>
+      <li><a href="#">Новости</a></li>
+      <li><a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a></li>
+      <li><a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">О нас</a></li>
+    </ul></center>
+    <script>
+      function slowScroll(id) {
+        $('body').animate({
+          scrollTop: $(id).offset().top
+        }, 500)
+      }
+    </script><br>
+    <center><logo><img src="iMAGES/ПараПетГруп.jpg" alt="Olbirol" width="200" height="200"></logo></center>
+    <p>Наше предприятие занимается розничной торговлей товаров (одеждой) для женщин и мужчин</p></center>
+    <p>В течение сотен лет самым распространённым, а во многих странах и единственным материалом для производства мебели было дерево. И сегодня, в век научно-технического прогресса, когда бурно развиваются технологии и производство, дерево, тем не менее, остаётся самым востребованным и популярным материалом для изготовления мебели. За много веков люди изучили свойства разных пород древесины, нашли лучшие способы их обработки, а также научились производить мебель самых разных стилей и направлений. Породы древесины бывают разными, и сильно отличаются друг от друга своими свойствами. Есть такие породы дерева, которые абсолютно непригодны для производства мебели, и даже такие, из которых мебель изготавливать ни в коем случае нельзя. Для выбора древесины важны несколько факторов. Одним из них является внешний вид, но не менее важна её фактура. От характеристик древесины, таких, как прочность, твёрдость, износостойкость, устойчивость к деформациям, гигроскопичность зависит качество изготовленной из неё мебели.
+    </p>
+      <br>
+      <br>
+      <center><div class="photo">
+        <center><p><img src="images/25.jpg" alt="" width="140" height="100"/></p></center>
+        <center><p class="caption">Береза</p></center>
+     </div>
+     <div class="photo">
+       <center><p><img src="images/170.jpg" alt="170" width="140" height="100"/></p></center>
+       <center><p class="caption">Дуб</p></center>
+     </div>
+     <div class="photo">
+       <center><p><img src="images/172.jpg" alt="" width="140" height="100"/></p></center>
+       <center><p class="caption">Липа</p></center>
+     </div></center>
+       <br>
+       <center><table border="1" width="50%" width="500" heigt="500" style="float: left">
+        <tr>
+          <th>Фотография</th>
+          <th>Наименование товара</th>           
+        </tr>
+        <tr>
+          <td><img src="Images/20.jpg" width="550" heigt="250"</td>
+          <center><td width="250">Гостинная</td></center>
+        </tr>
+        <tr>
+          <td><img src="Images/21.jpg" width="550" height="350"></td>
+          <center><td width="250">Кухня</td></center>
+        </tr>
+      </table></center>
+      <center><table border="1" style="float: right" width="50%">
+        <tr>
+          <th>Фотография</th>
+          <th>Наименование товара</th>
+        </tr>
+        <tr>
+          <td><img src="Images/22.jpg" width=550" height="413"></td>
+          <center><td width="250">Master Bedroom</td></center>
+        </tr>
+        <tr>
+          <td><img src="Images/23.jpg" width="550" height="351"></td>
+          <center><td width="250">Детская комната</td></center>
+        </tr>
+      </table></center> 
+       <div id="contacts">
+        <form id="form_input">
+          <label><h6>Зарегестрируйтесь на нашем сайте</h6></label>
+          <label for="name">Имя<span></span></label><br>
+          <input type="email" placeholder="Введите ваше имя" name="email" id="email"><br>
+          <label for="email">Ваша почта<span></span></label><br>
+          <input type="email" placeholder="Введите email" name="email" id="email"><br>
+          <label for="message">Сообщение<span></span></label><br>
+          <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+          <div id="mess_send" class="btn">Отправить</div>
+        </form>
+      </div>
+       <br>
+      <br>
+      <p class="notetitle">Примечание</p>
+      <p class="note" width="500">Нша компания обеспечит уюь, комфорт и хорошую атмосферу в вашем доме. <br>
+      Многолений опыт нашей компании гарантирует качество продука, несмотря на доступную цену</p>
+      <div class="footer">Подвал</div>
+ </body>
+ </html>
