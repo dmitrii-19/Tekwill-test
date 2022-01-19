@@ -1,5 +1,5 @@
 body {
-  background-color : yellowgreen;
+  background-color : #95B8D1;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
  /* Анимация */
@@ -106,7 +106,7 @@ table, th {
   text-align: center;
 }
 td {
-  background-color :turquoise;
+  background-color : #9c958e;
   color : black;
   font-family : cursive;
   text-align :center;
@@ -121,7 +121,7 @@ table, th {
   text-align: center;
 }
 td {
-  background-color : #50F28C ;
+  background-color : #e2ae6c ;
   color : black;
   font-family : cursive;
   text-align :center;
