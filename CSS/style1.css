@@ -63,7 +63,7 @@ a:hover {
   .message{
     background-color: #222828;
     color: black;
-    padding: 10%;
+    padding: 3%;
     background-color :burlywood;
   }
 
@@ -134,8 +134,8 @@ a:hover {
  }
 
  .six {
-   background-color: #222828;
-   color:white;
+   background-color: black;
+   color: white;
  }
 
 .six i{
@@ -183,7 +183,8 @@ font-variant-caps: all-petite-caps;
 }
 
 footer {
-  background-color: black;
-  color:white;
+  background-color: whitesmoke;
+  color: black;
   padding: 4%;
+  font-family: cursive;
 }
